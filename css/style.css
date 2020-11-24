@@ -1,0 +1,980 @@
+body {
+  background-color: #000000 !important;
+  color: #01e6a2 !important;
+}
+
+@font-face {
+  font-family: snackthesack;
+  src: url("https://www.alivenow.in/dev/sackthesnackCB/font/RaisonnePro-Bold.ttf");
+}
+/* p {
+  line-height: normal !important;
+  margin-bottom: 0rem !important;
+} */
+.clickMenu,
+.clickMenu:hover {
+  color: #01e6a2 !important;
+  text-decoration: none;
+}
+p,
+div {
+  font-family: snackthesack !important;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(1, 230, 162, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+  border: none;
+  outline: none;
+}
+.maileTo,
+.maileTo:hover {
+  text-decoration: none;
+  color: #01e6a2;
+}
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.fixed-top {
+  background-color: #000000 !important;
+}
+#carouselExampleIndicators {
+  padding-top: 80px;
+}
+.storyAloha {
+  position: relative;
+}
+.nav-link {
+  color: #01e6a2 !important;
+}
+.collapse.show {
+  background-color: #000000 !important;
+}
+ul {
+  text-align: center !important;
+}
+#menu {
+  display: none;
+}
+#ourstory {
+  display: none;
+}
+#ourmusic {
+  display: none;
+}
+.textCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+}
+.HomeImg {
+  position: relative;
+}
+.AlohaText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 42px;
+  color: #ffffff;
+  font-weight: bold;
+}
+#menu,
+#ourstory,
+#ourmusic {
+  padding-top: 100px;
+}
+@media only screen and (max-width: 600px) {
+  .orderNowImg {
+    width: 100%;
+  }
+  #theShack {
+    font-size: 24px;
+  }
+  #homeImg {
+    margin-top: 20px;
+  }
+  .theShack {
+    color: #000000;
+    position: absolute;
+    top: 8px;
+    font-family: snackthesack;
+    left: 16px;
+  }
+  .AlohaText {
+    font-size: 42px;
+  }
+  .followUpText {
+    font-size: 14px;
+    font-weight: bold;
+    position: inherit;
+    top: 12%;
+  }
+  #overText {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .LogoImg {
+    width: 100%;
+  }
+  .navbar-brand {
+    margin-right: 0 !important;
+    display: block;
+    position: relative;
+    left: 2% !important;
+    width: 18%;
+  }
+  .alohaImg {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .column {
+    float: left;
+    width: 45%;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .row {
+    /* margin: 0 auto; */
+    text-align: center;
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column img {
+    width: 90%;
+  }
+  .HomeImg2 {
+    width: 100%;
+    /* margin: 15px auto; */
+  }
+  #secondRow {
+    margin-top: 20px !important;
+  }
+  .ShareImg {
+    width: 51px !important;
+    /* padding-top: 23%; */
+    position: relative;
+    top: 51px;
+    margin-right: 15px;
+  }
+  .contact {
+    text-align: center;
+    padding-top: 60px;
+    line-height: 0.4;
+    font-size: 20px;
+  }
+  .footerTree {
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-bottom: 70px;
+    padding-top: 30px;
+  }
+  .footerTree img {
+    width: 100%;
+  }
+  #menu .tacos {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .tacosText {
+    background-image: url(../assets/tagos_menu.png);
+    width: 90%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: auto;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+  }
+
+  .menuText1 {
+    text-align: center;
+    padding: 11px;
+    line-height: 1.9;
+    font-size: 12px;
+  }
+
+  .signatureText {
+    background-image: url(../assets/signature_menu.png);
+    width: 90%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: auto;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+  }
+
+  .friesText {
+    background-image: url(../assets/fries_menu.png);
+    width: 90%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: auto;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+  }
+  .nachosText {
+    background-image: url(../assets/nachos_menu.png);
+    width: 90%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: auto;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+  }
+  .drinksText {
+    background-image: url(../assets/drink_menu.png);
+    width: 90%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: auto;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+  }
+  .menuText2 {
+    text-align: center;
+    font-size: 12px;
+    line-height: 0.5;
+    margin-top: 11px;
+  }
+  .ourmusicPage {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .ourmusic {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #musicRowId {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #01e6a2;
+  }
+  #musicTrack {
+    left: 0;
+    right: 0;
+    position: relative;
+    top: 18%;
+    bottom: 0;
+  }
+  #musicFooter {
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-bottom: 71px;
+    padding-top: 159px;
+  }
+  .ourStoryHead {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1;
+  }
+  #ourStoryRowId {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .whiteBG {
+    background-color: #ffffff;
+  }
+  .ourStorySubText {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .subText1 {
+    padding-top: 10px;
+  }
+  .storyRow2 {
+    float: left;
+  }
+  .storyRow2Img {
+    padding: 0px 20px;
+  }
+  .subText2 {
+    padding-top: 0;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .orderNowImg {
+    width: 100%;
+  }
+  #theShack {
+    font-size: 24px;
+  }
+  .followUpText {
+    font-size: 14px;
+    font-weight: bold;
+    position: inherit;
+    top: 12%;
+  }
+  .theShack {
+    color: #000000;
+    position: absolute;
+    top: 8px;
+    font-family: snackthesack;
+    left: 16px;
+  }
+  #overText {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .AlohaText {
+    font-size: 42px;
+  }
+  .LogoImg {
+    width: 100%;
+  }
+  .navbar-brand {
+    margin-right: 0 !important;
+    display: block;
+    position: relative;
+    left: 2% !important;
+    width: 18%;
+  }
+  .alohaImg {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .column {
+    float: left;
+    width: 45%;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .row {
+    /* margin: 0 auto; */
+    text-align: center;
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column img {
+    width: 90%;
+  }
+  .HomeImg2 {
+    width: 100%;
+    margin: 15px auto;
+  }
+  #secondRow {
+    margin-top: 100px !important;
+  }
+  .ShareImg {
+    width: 51px !important;
+    /* padding-top: 23%; */
+    position: relative;
+    top: 51px;
+    margin-right: 15px;
+  }
+  .contact {
+    text-align: center;
+    padding-top: 60px;
+    line-height: 0.4;
+    font-size: 20px;
+  }
+  .footerTree {
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-bottom: 70px;
+    padding-top: 30px;
+  }
+  .footerTree img {
+    width: 100%;
+  }
+  #menu .tacos {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .tacosText {
+    background-image: url(../assets/tagos_menu.png);
+    width: 90%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: auto;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+  }
+
+  .menuText1 {
+    text-align: center;
+    padding: 11px;
+    line-height: 1.9;
+    font-size: 12px;
+  }
+
+  .signatureText {
+    background-image: url(../assets/signature_menu.png);
+    width: 90%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: auto;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+  }
+
+  .friesText {
+    background-image: url(../assets/fries_menu.png);
+    width: 90%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: auto;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+  }
+  .nachosText {
+    background-image: url(../assets/nachos_menu.png);
+    width: 90%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: auto;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+  }
+  .drinksText {
+    background-image: url(../assets/drink_menu.png);
+    width: 90%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: auto;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+  }
+  .menuText2 {
+    text-align: center;
+    font-size: 12px;
+    line-height: 0.5;
+    margin-top: 11px;
+  }
+  .ourmusicPage {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .ourmusic {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #musicRowId {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #01e6a2;
+  }
+  #musicTrack {
+    left: 0;
+    right: 0;
+    position: relative;
+    top: 18%;
+    bottom: 0;
+  }
+  #musicFooter {
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-bottom: 71px;
+    padding-top: 159px;
+  }
+  .ourStoryHead {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1;
+  }
+  #ourStoryRowId {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .whiteBG {
+    background-color: #ffffff;
+  }
+  .ourStorySubText {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .subText1 {
+    padding-top: 10px;
+  }
+  .storyRow2 {
+    float: left;
+  }
+  .storyRow2Img {
+    padding: 0px 20px;
+  }
+  .subText2 {
+    padding-top: 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .textCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 29px;
+    font-weight: bold;
+  }
+  .HomeImg {
+    margin-top: 50px;
+  }
+  #theShack {
+    font-size: 34px;
+  }
+  #homeImg {
+    margin-top: 60px;
+  }
+
+  .theShack {
+    color: #000000;
+    position: absolute;
+    top: 8px;
+    font-family: snackthesack;
+    left: 68px;
+  }
+  .followUpText {
+    font-size: 25px;
+    font-weight: bold;
+    position: inherit;
+    top: 14%;
+  }
+  .orderNowImg {
+    width: 100%;
+  }
+  .AlohaText {
+    font-size: 60px;
+  }
+  #overText {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .LogoImg {
+    width: 100%;
+  }
+  .navbar-brand {
+    text-align: end;
+    margin-right: 0 !important;
+    position: relative;
+    left: 2% !important;
+    width: 13%;
+  }
+  .alohaImg {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .column {
+    float: left;
+    width: 45%;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .row {
+    /* margin: 0 auto; */
+    text-align: center;
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column img {
+    width: 90%;
+  }
+  .HomeImg2 {
+    width: 100%;
+  }
+  #secondRow {
+    margin-top: 60px !important;
+  }
+  .ShareImg {
+    width: 100px !important;
+    margin-top: 17%;
+  }
+  .contact {
+    text-align: center;
+    padding-top: 66px;
+    line-height: 0.4;
+    font-size: 30px;
+  }
+  .footerTree {
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-bottom: 70px;
+    padding-top: 60px;
+  }
+  .footerTree img {
+    width: 100%;
+  }
+  #menu .tacos {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .tacosText {
+    background-image: url(../assets/tagos_menu.png);
+    width: 90%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: auto;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+  }
+
+  .menuText1 {
+    text-align: center;
+    padding: 11px;
+    line-height: 1.9;
+    font-size: 16px;
+  }
+
+  .signatureText {
+    background-image: url(../assets/signature_menu.png);
+    width: 90%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: auto;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+  }
+
+  .friesText {
+    background-image: url(../assets/fries_menu.png);
+    width: 90%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: auto;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+  }
+  .nachosText {
+    background-image: url(../assets/nachos_menu.png);
+    width: 90%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: auto;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+  }
+  .drinksText {
+    background-image: url(../assets/drink_menu.png);
+    width: 90%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: auto;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+  }
+  .menuText2 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 0.8;
+    margin-top: 15px;
+  }
+  .ourmusicPage {
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+  }
+  .ourmusic {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #musicRowId {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #01e6a2;
+  }
+  #musicTrack {
+    left: 0;
+    right: 0;
+    position: relative;
+    top: 18%;
+    bottom: 0;
+  }
+  #musicFooter {
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-bottom: 71px;
+    padding-top: 159px;
+  }
+  .ourStoryHead {
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 1;
+  }
+  #ourStoryRowId {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .whiteBG {
+    background-color: #ffffff;
+  }
+  .ourStorySubText {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .subText1 {
+    padding-top: 10px;
+  }
+  .storyRow2 {
+    float: left;
+  }
+  .storyRow2Img {
+    padding: 0px 20px;
+  }
+  .subText2 {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .orderNowImg {
+    width: 70%;
+  }
+  .HomeImg {
+    margin-top: 60px;
+  }
+  #theShack {
+    font-size: 40px;
+  }
+  #homeImg {
+    margin-top: 70px;
+  }
+  .padding {
+    width: 71%;
+    margin: 0 auto;
+  }
+  .followUpText {
+    font-size: 42px;
+    font-weight: bold;
+    position: inherit;
+    top: 14%;
+  }
+  .theShack {
+    color: #000000;
+    position: absolute;
+    top: 8px;
+    font-family: snackthesack;
+    left: 68px;
+  }
+  .AlohaText {
+    font-size: 200px;
+    font-family: snackthesack;
+  }
+  .LogoImg {
+    width: 30%;
+  }
+  #overText {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .navbar-brand {
+    margin-right: 0 !important;
+    display: block;
+    position: relative;
+    left: 0% !important;
+    text-align: end;
+  }
+  .alohaImg {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .column {
+    float: left;
+    width: 45%;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .row {
+    /* margin: 0 auto; */
+    text-align: center;
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column img {
+    width: 90%;
+  }
+  .HomeImg2 {
+    width: 100%;
+  }
+  #secondRow {
+    margin-top: 100px !important;
+  }
+  .ShareImg {
+    width: 100px !important;
+    margin-top: 54%;
+  }
+
+  .contact {
+    text-align: center;
+    padding-top: 90px;
+    line-height: 0.7;
+    font-size: 50px;
+  }
+  .footerTree {
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-bottom: 70px;
+    padding-top: 108px;
+  }
+  .footerTree img {
+    width: 100%;
+  }
+  #menu .tacos {
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+  }
+  .tacosText {
+    background-image: url(../assets/tagos_menu.png);
+    width: 70%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: auto;
+    background-repeat: no-repeat;
+  }
+
+  .menuText1 {
+    text-align: center;
+    padding: 11px;
+    line-height: 1.5;
+    font-size: 36px;
+  }
+
+  .signatureText {
+    background-image: url(../assets/signature_menu.png);
+    width: 70%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: auto;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+  }
+
+  .friesText {
+    background-image: url(../assets/fries_menu.png);
+    width: 70%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: auto;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+  }
+  .nachosText {
+    background-image: url(../assets/nachos_menu.png);
+    width: 70%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: auto;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+  }
+  .drinksText {
+    background-image: url(../assets/drink_menu.png);
+    width: 70%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: auto;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+  }
+  .menuText2 {
+    text-align: center;
+    padding: 11px;
+    line-height: 0.4;
+    font-size: 36px;
+  }
+  .ourmusicPage {
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+  }
+  .ourmusic {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #musicRowId {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #01e6a2;
+  }
+  #musicTrack {
+    left: 0;
+    right: 0;
+    position: relative;
+    top: 18%;
+    bottom: 0;
+  }
+  #musicFooter {
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-bottom: 71px;
+    padding-top: 159px;
+  }
+  .textCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 58px;
+    font-weight: bold;
+    font-family: snackthesack;
+  }
+  .ourStoryHead {
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 1;
+  }
+  #ourStoryRowId {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .whiteBG {
+    background-color: #ffffff;
+  }
+  .ourStorySubText {
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+  }
+  .subText1 {
+    padding-top: 10px;
+  }
+  .storyRow2 {
+    float: left;
+  }
+  .storyRow2Img {
+    padding: 0px 20px;
+  }
+  .subText2 {
+    padding-top: 0;
+  }
+}

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>California Burrito | Snack the shack</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xg navbar-light fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <a class="navbar-brand" href=""><img class="LogoImg" src="assets/Logo.png" alt="" srcset=""></a>
+
+        <a class="navbar-brand" href="#"><img class="orderNowImg" src="assets/Order-now.png" alt=""></a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home" onclick="home()">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu" onclick="menu()">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ourStory" onclick="ourstory()">Our Story</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ourmusic" onclick="ourmusic()">Our Music</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <!-- Home section -->
+    <div class="home" id="home">
+        <div id="carouselExampleIndicators" class="carousel slide" data-interval="2000" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active"> <img class="d-block w-100" src="assets/Banner_img_1.png"
+                        alt="Banner00">
+                </div>
+                <div class="carousel-item"> <img class="d-block w-100" src="assets/Banner_img_2.png" alt="Banner01">
+                </div>
+                <div class="carousel-item"> <img class="d-block w-100" src="assets/Banner_img_3.png" alt="Banner02">
+                </div>
+                <div class="carousel-item"> <img class="d-block w-100" src="assets/Banner_img_4.png" alt="Banner03">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="HomeImg">
+            <p class="AlohaText">ALOHA!</p>
+            <img src="assets/Aloha.png" class="alohaImg" alt="" srcset="">
+        </div>
+
+
+        <div class="HomeImg2">
+            <div class="row" id="homeImg"
+                style="background-image: url(assets/Green-lines.png);background-size: 100%;background-repeat: no-repeat;background-position: center;">
+                <div class="column">
+                    <p class="textCenter"><a class="clickMenu" href="#ourstory" onclick="ourstory()"> OUR STORY</a></p>
+                    <a class="clickMenu" href="#ourstory" onclick="ourstory()"><img src="assets/img_our-story.png"
+                            alt="" srcset=""></a>
+                </div>
+                <div class="column">
+                    <p class="textCenter"><a class="clickMenu" href="#menu" onclick="menu()">OUR MENU</a></p>
+                    <a class="clickMenu" href="#menu" onclick="menu()"> <img src="assets/img_Our-menu.png" alt=""
+                            srcset=""></a>
+                </div>
+            </div>
+
+            <div class="row" id="secondRow"
+                style="background-image: url(assets/Green-lines.png);background-size: 100%;background-repeat: no-repeat;background-position: center;margin-top: 100px;">
+                <div class="column">
+                    <p class="textCenter"><a class="clickMenu" href="#ourmusic" onclick="ourmusic()"> PLAYLIST </a></p>
+                    <a class="clickMenu" href="#ourmusic" onclick="ourmusic()"> <img src="assets/Img_plylist.png" alt=""
+                            srcset=""></a>
+                </div>
+                <div class="column">
+                    <div style="margin: 0 auto;
+    display: inline-block;">
+                        <p class="followUpText" style="text-align: justify;">FOLLOW <br>US</p>
+                    </div>
+
+
+                    <div class="padding">
+
+
+                        <a href="https://www.facebook.com/snacktheshack/" target="_blank"><img src="assets/Fb.png"
+                                alt="" srcset="" class="ShareImg"></a>
+                        <a href="https://www.instagram.com/snacktheshack/" target="_blank"><img src="assets/Insta.png"
+                                alt="" srcset="" class="ShareImg"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact">
+                <p>CONTACT US</p>
+                <p><a class="maileTo" href="mailto:snacktheshack@gmail.com" target="_blank">SNACKTHESHACK@GMAIL.COM</a>
+                </p>
+            </div>
+
+
+            <div class="footerTree">
+                <img src="assets/bottom-tree.png " alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- menu section -->
+    <div id="menu">
+        <p class="tacos">TACOS</p>
+        <div class="tacosText">
+            <p class="menuText1">
+                DOUBLE DOUBLE CHICKEN & POTATO TACO <br>
+                PEPPERY CHICKEN & CHIPOTLE TACO <br> FIERY CHICKEN & CHEESE TACO
+                DOUBLE DOUBLE COTTAGE CHEESE & POTATO TACO <br>
+                MUSHROOM & CHEESE TACO <br>
+                BLACK BEANS & CHEESE TACO </p>
+        </div>
+        <p class="tacos">SIGNATURES</p>
+        <div class="signatureText">
+            <p class="menuText1">BBQ CHICKEN SHACK STACK BURGER <br>
+                BBQ PANEER SHACK STACK BURGER <br>
+                LOCA LOCA CHICKEN TOSTADA <br>
+                SHACK STACK BEAN TOSTADA <br>
+                PEPPERY BONELESS CHICKEN <br>
+                FIERY BONELESS CHICKEN <br>
+                FIERY COTTAGE CHEESE <br>
+                CHESSY QUESADILLA <br>
+                CHESSY JALAPENO POTATO SHOTS
+            </p>
+        </div>
+        <P class="tacos">FRIES</P>
+
+        <div class="friesText">
+            <p class="menuText1">
+                HONOLULU SAUCE & FIERY CHICKEN SHACK FRIES <br>
+                TEXAS BBQ CHICKEN SHACK FRIES <br>
+                PEPPERY COTTAGE CHEESY SHACK FRIES <br>
+                NOT-SO-ORDINARY CHEESY MUSHROOM FRIES
+
+            </p>
+        </div>
+
+        <p class="tacos">NACHOS</p>
+        <div class="nachosText">
+            <p class="menuText1">
+                HONOLULU SAUCE & FIERY CHICKEN SHACK NACHOS <br>
+                TEXAS BBQ CHICKEN SHACK NACHOS <br>
+                PEPPERY COTTAGE CHEESY SHACK NACHOS <br>
+                NOT-SO-ORDINARY CHEESY MUSHROOM NACHOS
+
+            </p>
+        </div>
+
+        <p class="tacos">DRINKS</p>
+        <div class="drinksText">
+            <div class="row">
+                <div class="column">
+                    <p class="menuText2">COLD BREW COFFEE</p>
+                    <p class="menuText2">PEACH COLD BREW TEA</p>
+                    <p class="menuText2">HERBAL COLD BREW TEA</p>
+                </div>
+                <div class="column">
+                    <p class="menuText2">HONOLULU</p>
+                    <p class="menuText2">PEACH LEMONADE</p>
+                    <p class="menuText2">HERBAL LEMONADE</p>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- footer section -->
+
+        <div class="footerTree">
+            <img src="assets/bottom-tree.png " alt="">
+        </div>
+    </div>
+
+
+
+    <!-- our story section -->
+    <div id="ourstory">
+        <p class="ourStoryHead">WE BELIEVE IN GOOD VIBES <br>AND GOOD FOOD</p>
+        <div class="whiteBG"
+            style="background-image: url(assets/Green-lines.png);background-size: 100%;background-repeat: no-repeat;background-position: center;">
+
+            <div class="row" id="ourStoryRowId">
+                <div class="column">
+                    <img src="assets/Our_story_img_2.png" alt="">
+                </div>
+                <div class="column">
+                    <img src="assets/Our_story_img_3.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="subText1">
+            <p class="ourStorySubText">OUR PHILOSOPHY IS SUMMED UP IN THE HAWAIIAN WORD</p>
+        </div>
+        <div class="storyAloha">
+            <p class="AlohaText">ALOHA!</p>
+            <img src="assets/Aloha.png" alt="" srcset="" width="100%">
+        </div>
+
+        <div class="">
+            <p id="overText">AN ESSENCE OF LIVING WITH LOVE, PEACE <br>COMPASSION, AND RESPECT. <br>
+                AT SNACK THE SHACK, WE BELIEVE SPREADING GOOD <br>VIBES WITH GOOD FOOD, AND BRINGING SMILES AND
+                <br>PEACE TO ALL
+                PEOPLE WE ENCOUNTER.</p>
+
+
+
+        </div>
+
+        <div class="whiteBG"
+            style="background-image: url(assets/Green-lines.png);background-size: 100%;background-repeat: no-repeat;background-position: center; margin-top: 20px;">
+
+            <div class="row" id="ourStoryRowId">
+                <div class="column">
+                    <img src="assets/Our_story_img_5.png" alt="">
+                </div>
+                <div class="column">
+                    <img src="assets/Our_story_img_4.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="subText1">
+            <p class="ourStorySubText">WITH DISH WE CRAFT, WE STRIVE TO IN- <br>CREASE ALOHA AND BRING PEOPLE CLOSER
+                <br>TOGETHER.</p>
+        </div>
+        <div class="subText2">
+            <p class="ourStorySubText">SO DIG IN, AND REST UP AT "THE SHACK!"</p>
+        </div>
+
+        <!-- footer section -->
+
+        <div class="footerTree">
+            <img src="assets/bottom-tree.png " alt="">
+        </div>
+    </div>
+
+    <!-- our music section -->
+    <div id="ourmusic">
+        <p class="ourmusicPage">OUR MUSIC</p>
+        <div class="row" id="musicRowId">
+            <div class="column" style="position: relative;">
+                <p class="theShack">THE <b id="theShack"> SHACK</b></p>
+                <img src="assets/Our_music_img1.png" alt="" srcset="">
+            </div>
+            <div class="column">
+                <img src="assets/Our_music_img2.png" alt="" srcset="" id="musicTrack">
+            </div>
+        </div>
+
+        <!-- footer section -->
+
+        <div class="footerTree" id="musicFooter">
+            <img src="assets/bottom-tree.png " alt="">
+        </div>
+    </div>
+
+    <!-- Javascript file -->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
